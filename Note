@@ -1,0 +1,37 @@
+Software Requirements
+---------------------
+
+JDK 8 +
+MySQL Workbench
+JDBC Connector
+MySQL - mysql-connector-java
+Tomcat Server
+Chrome Browser
+Eclipse IDE EEE
+
+
+Steps
+-----
+
+1. Create an Eclipse Dynamic Web Project
+
+To create a new dynamic Web project in Eclipse:
+* On the main menu select File > New > Project....
+* In the upcoming wizard choose Web > Dynamic Web Project
+* Click Next.
+* Enter project name as "registeration";
+* Make sure that the target runtime is set to Apache Tomcat with the currently supported version. 
+
+2. Add Dependencies
+
+Add the latest release of below jar files to the lib folder.
+jsp-api.2.3.1.jar
+servlet-api.2.3.jar
+mysql-connector-java-8.0.13.jar
+jstl-1.2.jar
+
+3. MySQL Database Setup
+Let's create a database named "userdb" in MySQL. Now, let's create an "memeber" and "quiz" table
+
+4. Write Code
+5. Run
